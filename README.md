@@ -1,16 +1,8 @@
-# JavaScript
-JavaScript学习笔记
+# prompt
 
-# hello world
- - js代码需要写到script标签中
- - 输出语：alert, console.log, document.write
-
-```
-<script>
-  alert('Hello world');
-  console.log('hello world');
-  document.write('hello world');  
-</script>
- ```
+返回值是一个包含用户输入文本的字符串，或 null。
+let number = + prompt("请输入一个数字")
+利用一元运算 + 来转为number类型
+ 
 
 
