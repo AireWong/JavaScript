@@ -1,8 +1,7 @@
-# prompt
+prompt - 返回值是字符串，或 null，想要数字时，利用一元运算 "+" 转为number类型
+in - 查询对象中是否含有某个属性名 `name in obj`
 
-返回值是一个包含用户输入文本的字符串，或 null。
-let number = + prompt("请输入一个数字")
-利用一元运算 + 来转为number类型
+
  
 
 
