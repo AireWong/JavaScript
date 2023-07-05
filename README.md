@@ -35,9 +35,9 @@
    // a 为形参
    function fn2(a){
      console.log(a) //undefined
-     a=20
      console.log(a) // 20
    }
+   fn2(10)
    console.log(a) // 10
 
    函数内定义a
@@ -46,6 +46,7 @@
       let a=20
       console.log(a) //20
    }
+   fn3()
    console.log(a) //10
    ```
  
