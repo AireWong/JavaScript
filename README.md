@@ -40,10 +40,10 @@
    fn2(10)
    console.log(a) // 10
 
-   函数内定义a
+   // 函数内定义a
    function fn3(){
       console.log(a) //undefined
-      let a=20
+      var a=20
       console.log(a) //20
    }
    fn3()
