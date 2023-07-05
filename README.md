@@ -13,6 +13,32 @@
     window.c = 40
     console.log (c===window.c) //false
     ```
+ - 局部作用域中，没有使用var或let声明变量，则变量会自动成为window对象的属性 也就是全局变量
+   ```
+   function fn(){
+     b=10
+   }
+   console.log{b}
+   console.log{window.b}
+   ```
+ - 全局定义变量 a，函数形参不是a，函数内也没有定义a，则函数内对a就是对全局变量a。
+   ```
+   var a = 10
+   function fn(){
+     a = 20
+     console.log(a) //20
+   }
+   fn()
+   console.log(a) //20
+
+   // a 为形参
+   function fn2(a){
+     console.log(a) //undefined
+     a=20
+     console.log(a) // 20
+   }
+   console.log(a) // 10
+   ```
  
 
 
