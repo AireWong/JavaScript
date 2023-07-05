@@ -37,7 +37,7 @@
      console.log(a) //undefined
      console.log(a) // 20
    }
-   fn2(10)
+   fn2()
    console.log(a) // 10
 
    // 函数内定义a
