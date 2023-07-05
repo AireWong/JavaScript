@@ -6,7 +6,13 @@
        console.log(proName, obj[propName])
    }
    ```
-
+  - 箭头函数只有一个 `return` 语句时，可省略大括号和return;只有一个参数时，可以省略小括号
+  - let声明的变量不会存储在window对象
+    ```
+    let c = 30
+    window.c = 40
+    console.log (c===window.c) //false
+    ```
  
 
 
