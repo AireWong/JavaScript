@@ -31,7 +31,9 @@
    }
    fn()
    console.log(a) //20
-
+   
+   //-----------------------
+   a = 10
    // a 为形参
    function fn2(a){
      console.log(a) //undefined
@@ -39,7 +41,9 @@
    }
    fn2()
    console.log(a) // 10
-
+   
+   //-----------------------
+   a = 10
    // 函数内定义a
    function fn3(){
       console.log(a) //undefined
