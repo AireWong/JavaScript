@@ -62,6 +62,32 @@
  - 原型对象由两部分组成
   - 对象添加到原型的属性和方法
   - constructor 构造函数，一般是示例对象的类。即一个示例对象的原型对象，其包含的构造函数是该示例对象对应的类
+ - 多态最根本的作用就是通过把过程化的条件语句转化为对象的多态性，从而消除这些条件分支语句
+   ```
+   function makeSound (animal) {
+     if (animal.sound instanceof Function) { // 判断是否有animal.sound且该属性为函数
+       animal.sound()
+     }
+   }
+   class Cat {
+     sound () {
+       console.log('喵喵喵～')
+     }
+   }
+   class Dog {
+     sound () {
+       console.log('汪汪汪！')
+     }
+   }
+   class Pig {
+     sound () {
+       console.log('啂妮妮')
+     }
+   }
+   makeSound(new Cat()) // '喵喵喵～'
+   makeSound(new Dog()) // '汪汪汪！'
+   makeSound(new Pig()) // '啂妮妮'
+   ```
 
 
 
