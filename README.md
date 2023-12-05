@@ -89,5 +89,16 @@
    makeSound(new Pig()) // '啂妮妮'
    ```
 
-
+| English           | 繁体中文    | 简体中文    |
+|:------------------ |:---------- |:---------- |
+| Peppermint        | 薄荷        | 胡椒薄荷    |
+| Derwent           | 德温特      | 德文特      |
+| Procreate Pencil  | Procreate 铅笔 | Procreate 铅笔 |
+| Technical Pencil  | 自动铅笔     | 技术铅笔     |
+| HB Pencil         | HB 铅筀      | HB 铅笔      |
+| 6B Pencil         | 6B 铅笔      | 6B 铅笔      |
+| Narinder Pencil   | 纳林徳铅筀    | 纳林德笔     |
+| Soft Pastel       | 柔和粉彩     | 软色蜡笔     |
+| Oil Pastel        | 油蜡笔       | 蜡笔        |
+| Artist Crayon     | 艺术蜡笔     | 艺术蜡笔     |
 
